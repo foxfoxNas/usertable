@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>test task</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+  
+
+
+  <div class="popup">
+    <div class="popUpBody">
+
+    </div>
+    <button class="closepopup">
+      <div class="line line-one"></div>
+      <div class="line line-two"></div>
+    </button>
+
+
+  </div>
+
+  <form class="form-add-user">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="username" placeholder="UserName">
+    <input type="mail" name="email" placeholder="E-mail">
+    <input type="text" name="website" placeholder="Website">
+    <button id="btn-add">Add</button>
+  </form>
+
+  <table class="user-list">
+    <thead class="user-list-header">
+      <tr>
+        <th><button eventAction='SORT_BY_NAME' title="Sort by Name">Name</button> </th>
+        <th><button eventAction='SORT_BY_USERNAME' title="Sort by UserName">UserName</button> </th>
+        <th><button eventAction='SORT_BY_EMAIL' title="Sort by Email">E-mail</button> </th>
+        <th><button eventAction='SORT_BY_WEBSITE' title="Sort by WebSite">WebSite</button> </th>
+        <th><label>Manipulation</label></th>
+      </tr>
+    </thead>
+    <tbody id="user-list-table">
+
+    </tbody>
+  </table>
+
+
+
+
+
+  <!-- javascript  -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
